@@ -1,0 +1,18 @@
+@use "../../styles/variables";
+
+.button {
+  width: 7rem;
+  padding: variables.$padding-sm variables.$padding-lg;
+  border-radius: variables.$border-radius;
+  cursor: pointer;
+
+  &--primary {
+    background-color: variables.$primary-color;
+    border: 2px solid variables.$primary-color;
+  }
+
+  &--secondary {
+    background-color: #fff;
+    border: 2px solid variables.$primary-color;
+  }
+}
