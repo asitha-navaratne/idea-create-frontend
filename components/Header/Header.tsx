@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import logo from "@/public/logo.png";
+import logo from "@/public/images/logo.png";
 
 import styles from "./Header.module.scss";
 
@@ -13,8 +13,8 @@ const Header = () => {
         <Image src={logo} sizes="300px" fill alt="IdeaCreate Logo" />
       </div>
       <div className={styles["header__button-container"]}>
-        <Button>Log In</Button>
-        <Button variant="secondary">Sign Up</Button>
+        <Button variant="secondary">Sign up</Button>
+        <Button>Log in</Button>
       </div>
     </header>
   );
