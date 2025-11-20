@@ -2,8 +2,8 @@
 
 .button {
   font-weight: 500;
-  width: 7rem;
-  padding: variables.$padding-xs variables.$padding-lg;
+  min-width: 7rem;
+  padding: variables.$padding-sm variables.$padding-lg;
   border-radius: variables.$border-radius;
   cursor: pointer;
 
