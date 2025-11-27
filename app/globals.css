@@ -1,22 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Jost", sans-serif;
+  --radius: 15px;
+
+  /* Colors */
+  --color-primary: #00bdc7;
+  --color-secondary: #faaa6d;
+  --color-success: #6ed08f;
+  --color-warning: #f3d46e;
+  --color-error: #ff8888;
+  --color-text: #0f172a;
+
+  /* Paddings */
+  --padding-xs: 0.25rem;
+  --padding-sm: 0.5rem;
+  --padding-md: 1rem;
+  --padding-lg: 1.5rem;
+  --padding-xl: 2rem;
+}
+
 @font-face {
   font-family: "Jost";
   src: url("/fonts/Jost-VariableFont_wght.ttf") format("truetype");
 }
 
-html,
 body {
-  height: 100%;
-}
-
-html {
-  font-family: "Jost", sans-serif;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  color: #0f172a;
   background: linear-gradient(240deg, #ddd, #eee);
   background-repeat: no-repeat;
   background-attachment: fixed;
